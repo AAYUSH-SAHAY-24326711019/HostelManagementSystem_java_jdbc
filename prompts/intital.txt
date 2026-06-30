@@ -1,0 +1,99 @@
+What we have?
+We have mysql and workbench.
+We have a project to make in Java using Jdbc, Gui,
+Event Handling,Client and Server socket programming and the 
+pdf report generation.
+This is a final year MCA Project.
+
+
+What to consider?
+
+There is a girls hostel, 
+persona (Girl Student) : Goes to a Hostel [give admin side an option of a control panel where the name could be specified for the hostel]
+She studies in a college nearby. She rents a stay in that hostel.
+
+The hostel provides various selective services and charges the girls on that basis.
+--------------------------------------------------------------
+Like monthly stay bill [must] (specified at time of admission)+
+Emergency Deposit [must] (specified at time of admission)+
+electricity Deposit [must] (specified at time of admission)+
+wifi bill Deposit [must]
+--------------------------------------------------------------
+plan 1 : Single room + washroom only [extra charges specify]
+plan 2 : shared room + shared washroom [charges specified]
+---------------------------------------------------------------
+kitchen plan :
+plan 1 : Monthly canteen supply (specified) [refundable]
+---------------------------------------------------------------
+
+Girls these details are stored :
+Name, Gender, Age, Mobile Phone Number, Aadhar Number,
+Parents Father all the same above.
+Parents Mother all the same above.
+guardian if any then all the same above.
+------------------------------------------------------------------
+
+Main Modules :
+
+2 modules : Students, Parents module and the Admin Module.
+
+Admin Module.
+make login logout and reset password feature.
+make the feature to generate the credentials for the girl.
+(make Girl login account , temporary password that the girl may change after login.)
+1. Notice to a specific staying Girl.
+2. Notices to all staying Girls.
+3. Notice to parents of specific Girl.
+4. Notice to parents of all girls.
+5. See list of current staying, left girls.
+6. see the list of girls who will pay their fees in next month.
+7. see the list of girls who have paid their fees for current month.
+8. produce the reports for all the above as pdf.
+9. Module to see the complaints made by the girls.
+10. Canteen service Tracker.[if today canteen services available then to tick : services rendered. if not available today then : not rendered. if not rendered so the refund to be provided to all the girls.]
+11. List for refunding the Girls.
+12. Form to store all the details as above.
+13. Feature to edit the details.
+14. Feature to make the bills as per above specification, make fine,dues [option for the bill type.].
+15. Feature to see the details of a particular staying girl.
+16. Server gui and feature [for the chat application]
+
+Girl Module. 
+make login , logout and reset password.
+event handling : on login , if new account then get the password changed and store it in the form of an encrypted hash.
+1. See her all details.
+2. see the list of all the payments made.
+3. see the list of all dues.
+4. see the list of all fines.
+5. see the Canteen service rendered.
+6. download the report for all the payments made and print pdf.
+7. see her current plan and print pdf.
+8. Client gui and feature [for the chat application]
+
+parents module.
+login via the credentials of the girl student.
+1. See her all details.
+2. see the list of all the payments made.
+3. see the list of all dues.
+4. see the list of all fines.
+5. see the Canteen service rendered.
+6. download the report for all the payments made and print pdf.
+7. see her current plan and print pdf.
+8. Client gui and feature [for the chat application]
+(But all as the role of the parent.)
+
+
+Atleast 20 + forms and 20+ database table.
+use java , jdbc, gui, robust event handling, client and server socket programming, and report printing ability.
+
+Try to be fail safe. Try to make it Good Gui and simple to use.
+Try to prevent any error / bug . since we are running quick.
+
+What we have to do?
+Make the project so that i could run it in the eclipse.
+By running a single file runs the entire application.
+make the sql file for the mysql for the enrtire project.
+
+Build the project.
+Check the integrity.
+Make the zip of the entire project.
